@@ -86,7 +86,7 @@ Employees who left fall into two general categories: dissatisfied employees with
    The histogram shows that there are relatively few longer-tenured employees. It's possible that they're the higher-ranking, higher-paid employees.
 
 4.  
-   ![Screenshot 2024-06-13 012412](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/f8ca49e3-1ffb-4b92-a8f0-5e62d4eda028)
+![Screenshot 2024-06-13 012412](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/f8ca49e3-1ffb-4b92-a8f0-5e62d4eda028)
 
 The mean and median satisfaction scores of employees who left are lower than those of employees who stayed. Interestingly, among employees who stayed, the mean satisfaction score appears to be slightly below the median score. This indicates that satisfaction levels among those who stayed might be skewed to the left.
 
@@ -100,7 +100,7 @@ The scatterplot indicates two groups of employees who left: overworked employees
    Most of the employees in this company work well over 167 hours per month.
 
 6. 
-   ![newplot (6)](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/a19e3e24-d93d-425f-ac6d-8200f10ba5bd)
+![newplot (6)](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/a19e3e24-d93d-425f-ac6d-8200f10ba5bd)
 
 Very few employees who were promoted in the last five years left.
 
