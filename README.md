@@ -52,19 +52,21 @@ The model will help predict employee departure and the factors that causes it. T
 - Step 11 : Building Dashboard
 
 ## Key Insights 
+1. 
  ![newplot (3)](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/45b14e0d-4ee0-42bb-ad3b-42dec7a46450)
 
 ![newplot](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/c640fbec-d48f-4c95-9a35-97416469b79a)
 
-1. There are two groups of employees who left the company: (A) those who worked considerably less than their peers with the same number of projects, and (B) those who worked much more. Of those in group A, it's possible that they were fired. It's also possible that this group includes employees who had already given their notice and were assigned fewer hours because they were already on their way out the door. For those in group B, it's reasonable to infer that they probably quit. The folks in group B likely contributed a lot to the projects they worked in; they might have been the largest contributors to their projects.
+There are two groups of employees who left the company: (A) those who worked considerably less than their peers with the same number of projects, and (B) those who worked much more. Of those in group A, it's possible that they were fired. It's also possible that this group includes employees who had already given their notice and were assigned fewer hours because they were already on their way out the door. For those in group B, it's reasonable to infer that they probably quit. The folks in group B likely contributed a lot to the projects they worked in; they might have been the largest contributors to their projects.
 
    The optimal number of projects for employees to work on seems to be 3–4. The ratio of left/stayed is very small for these cohorts. And aside from the employees who worked on two projects, every group—even those who didn't leave the company—worked considerably more hours than this. It seems that employees here are overworked.
 
  All employees(145)  with 7 projects did leave.
-
+ 
+2. 
  ![newplot (1)](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/1a7adb02-4713-4aa6-9deb-1ef966d61499)
 
-2. The scatterplot above shows that there was a sizeable group of employees who worked ~240–315 hours per month. 315 hours per month is over 75 hours per week for a whole year. It's likely this is related to their satisfaction levels being close to zero.
+The scatterplot above shows that there was a sizeable group of employees who worked ~240–315 hours per month. 315 hours per month is over 75 hours per week for a whole year. It's likely this is related to their satisfaction levels being close to zero.
 
    The plot also shows another group of people who left, those who had more normal working hours. Even so, their satisfaction was only around 0.4. It's difficult to speculate about why they might have left. It's possible they felt pressured to work more, considering so many of their peers worked more. And that pressure could have lowered their satisfaction levels.
 
@@ -72,9 +74,10 @@ Finally, there is a group who worked ~210–280 hours per month, and they had sa
 
 Note the strange shape of the distributions here. This is indicative of data manipulation or synthetic data.
 
+3. 
 ![newplot (2)](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/7dbc6ebd-f386-4574-a512-173aaf2203a8)
 
-3. Employees who left fall into two general categories: dissatisfied employees with shorter tenures and very satisfied employees with medium-length tenures.
+Employees who left fall into two general categories: dissatisfied employees with shorter tenures and very satisfied employees with medium-length tenures.
 
    Four-year employees who left seem to have an unusually low satisfaction level. It's worth investigating changes to company policy that might have affected people specifically at the four-year mark, if possible.
 
@@ -82,30 +85,34 @@ Note the strange shape of the distributions here. This is indicative of data man
 
    The histogram shows that there are relatively few longer-tenured employees. It's possible that they're the higher-ranking, higher-paid employees.
 
+4.  
    ![Screenshot 2024-06-13 012412](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/f8ca49e3-1ffb-4b92-a8f0-5e62d4eda028)
 
-4.  The mean and median satisfaction scores of employees who left are lower than those of employees who stayed. Interestingly, among employees who stayed, the mean satisfaction score appears to be slightly below the median score. This indicates that satisfaction levels among those who stayed might be skewed to the left.
+The mean and median satisfaction scores of employees who left are lower than those of employees who stayed. Interestingly, among employees who stayed, the mean satisfaction score appears to be slightly below the median score. This indicates that satisfaction levels among those who stayed might be skewed to the left.
 
+5. 
 ![newplot (5)](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/bd9371f9-a0c1-4b81-b1dc-07a1e516efd9)
 
-5. The scatterplot indicates two groups of employees who left: overworked employees who performed very well and employees who worked slightly under the nominal monthly average of 166.67 hours with lower evaluation scores.
+The scatterplot indicates two groups of employees who left: overworked employees who performed very well and employees who worked slightly under the nominal monthly average of 166.67 hours with lower evaluation scores.
 
    There seems to be a correlation between hours worked and evaluation score.
 
    Most of the employees in this company work well over 167 hours per month.
 
+6. 
    ![newplot (6)](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/a19e3e24-d93d-425f-ac6d-8200f10ba5bd)
 
-6. Very few employees who were promoted in the last five years left.
+Very few employees who were promoted in the last five years left.
 
 very few employees who worked the most hours were promoted.
 
 all of the employees who left were working the longest hours.
 
+7. 
 ![newplot (7)](https://github.com/Subhrayan/Forecasting-Employee-turnover/assets/154826702/13b9956c-06d5-401c-bd73-204b5b7a38ce)
 
 
-7. The correlation heatmap confirms that the number of projects, monthly hours, and evaluation scores all have some positive correlation with each other, and whether an employee leaves is negatively correlated with their satisfaction level.
+The correlation heatmap confirms that the number of projects, monthly hours, and evaluation scores all have some positive correlation with each other, and whether an employee leaves is negatively correlated with their satisfaction level.
 
 8. Confusion matrix from Logistic regression model
 
