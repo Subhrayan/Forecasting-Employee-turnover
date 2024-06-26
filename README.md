@@ -13,7 +13,7 @@ To develop an employee retention model for Flux Motors by analyzing data and ide
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subhrayan-samajdar-78b17b132?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKT08BcH3SnWhaOJFAjaQ1w%3D%3D)
 
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://subhrayan.github.io/)
 
 
 
